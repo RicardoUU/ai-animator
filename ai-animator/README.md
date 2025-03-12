@@ -56,7 +56,7 @@ ai-animator/
 1. 克隆项目到本地
 
 ```bash
-git clone https://github.com/yourusername/ai-animator.git
+git clone https://github.com/RicardoUU/ai-animator.git
 cd ai-animator
 ```
 
