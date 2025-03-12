@@ -193,33 +193,6 @@ const TemplateLibrary = () => {
                 }}
               >
                 <CardActionArea onClick={() => handleTemplateSelect(template.id)}>
-                  <Box 
-                    sx={{ 
-                      height: 120, 
-                      backgroundColor: alpha(theme.palette.background.default, 0.5),
-                      display: 'flex',
-                      justifyContent: 'center',
-                      alignItems: 'center',
-                      overflow: 'hidden',
-                      borderBottom: `1px solid ${alpha(theme.palette.divider, 0.1)}`
-                    }}
-                  >
-                    {template.previewImageUrl ? (
-                      <img 
-                        src={template.previewImageUrl} 
-                        alt={template.name}
-                        style={{ 
-                          maxWidth: '100%', 
-                          maxHeight: '100%',
-                          objectFit: 'contain'
-                        }}
-                      />
-                    ) : (
-                      <Typography variant="body2" color="text.secondary">
-                        预览不可用
-                      </Typography>
-                    )}
-                  </Box>
                   <CardContent sx={{ p: 2 }}>
                     <Typography 
                       variant="subtitle1" 

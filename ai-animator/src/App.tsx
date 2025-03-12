@@ -67,8 +67,8 @@ function App() {
       </AppBar>
       
       {/* 主内容区 */}
-      <Container maxWidth="xl" sx={{ mt: { xs: 2, md: 4 }, mb: 4 }}>
-        <Grid container spacing={{ xs: 2, md: 3 }} sx={{ minHeight: 'calc(100vh - 180px)' }}>
+      <Container disableGutters maxWidth={false} sx={{ px: { xs: 2, md: 3 }, py: { xs: 2, md: 3 } }}>
+        <Grid container spacing={{ xs: 2, md: 3 }} sx={{ minHeight: 'calc(100vh - 64px - 80px)' }}>
           {/* 左侧区域：动画编辑器和预览 */}
           <Grid item xs={12} md={8}>
             <Paper elevation={0} sx={{ p: { xs: 2, md: 3 }, mb: { xs: 2, md: 3 } }}>
